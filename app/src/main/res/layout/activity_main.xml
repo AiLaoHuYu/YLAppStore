@@ -12,7 +12,7 @@
         android:layout_width="200dp"
         android:layout_height="match_parent"
         app:menu="@menu/bottom_nav_menu"
-        android:background="@color/primary_dark"/>
+        android:background="@color/lightslategray"/>
 
     <!-- 右侧内容区 -->
     <androidx.viewpager2.widget.ViewPager2

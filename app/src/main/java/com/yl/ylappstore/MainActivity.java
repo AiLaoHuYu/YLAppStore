@@ -9,6 +9,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.pm.PackageManager;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -77,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 return fragments.size();
             }
         });
+        ColorStateList csl=(ColorStateList)getResources().getColorStateList(R.drawable.navigation_menu_item_color);
+        navigationView.setItemTextColor(csl);
 
         // 底部导航点击监听
         navigationView.setNavigationItemSelectedListener(item -> {

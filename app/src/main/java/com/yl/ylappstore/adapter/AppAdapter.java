@@ -70,15 +70,18 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (isSystem) {
             btn.setText("系统应用");
             btn.setEnabled(false);
+            btn.setTextColor(Color.WHITE);
             btn.setBackgroundColor(Color.GRAY);
         } else if (installed) {
             btn.setText("打开");
             btn.setEnabled(true);
-            btn.setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimary));
+            btn.setTextColor(Color.BLACK);
+            btn.setBackgroundColor(ContextCompat.getColor(context, R.color.antiquewhite));
         } else {
             btn.setText("安装");
             btn.setEnabled(true);
-            btn.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
+            btn.setTextColor(Color.BLACK);
+            btn.setBackgroundColor(ContextCompat.getColor(context, R.color.cadetblue));
         }
     }
 
