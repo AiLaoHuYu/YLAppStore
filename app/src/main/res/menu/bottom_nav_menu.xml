@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_navigation"
+        android:title="导航"
+        android:icon="@drawable/ic_navigation"/>
+
+    <item
+        android:id="@+id/nav_music"
+        android:title="音乐"
+        android:icon="@drawable/ic_music"/>
+
+    <item
+        android:id="@+id/nav_other"
+        android:title="其他"
+        android:icon="@drawable/ic_other"/>
+</menu>
